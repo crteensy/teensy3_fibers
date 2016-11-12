@@ -26,6 +26,7 @@ enum FiberState {
 	FiberCreated,			// Fiber created, but not yet started
 	FiberExecuting,			// Fiber is executing
 	FiberReturned,			// Fiber has terminated
+	FiberJoined,			// Fiber was joined and is available for restarting
 	FiberInvalid			// Invalid fiberx value
 };
 
